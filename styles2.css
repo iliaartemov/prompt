@@ -43,13 +43,15 @@ top: 19px;
   top: 40px;
   color: aliceblue;
   
-  font-family: 'PPNeueMachina', sans-serif; /* Добавлен fallback */
+  font-family: 'PPNeueMachina', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 20.5px;
   text-align: left;
   
-  }
+  z-index: 10; /* Добавьте это свойство */
+}
+
   
   .menu a {
     text-decoration: none; /* Убирает подчеркивание */
