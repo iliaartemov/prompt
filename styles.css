@@ -157,7 +157,7 @@ body {
   height: 768px;
   background: url('img/brucehe.png') no-repeat center center;
   background-size: cover;
-  left: 300px;
+  left: 0px;
   top: 84.33375px;
   z-index: -1;
 }
