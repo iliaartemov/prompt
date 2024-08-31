@@ -251,6 +251,37 @@ body {
     left: calc(50% - 500px);
   }
 }
-.map {
 
+/* Адаптация для iMac */
+@media (max-width: 5120px) {
+  .menu {
+    gap: 32px;
+  }
+  
+  .h1 {
+    font-size: 160px;
+    line-height: 170px;
+  }
+  
+  .h2 {
+    font-size: 35px;
+  }
+  
+  .button_text {
+    width: 260px;
+    height: 42px;
+    padding: 12px 50px;
+  }
+  
+  .pic {
+    width: 450px;
+    height: 675px;
+    left: 200px;
+    top: 90px;
+  }
+  
+  .offerings {
+    width: 1100px;
+    left: calc(50% - 550px);
+  }
 }
